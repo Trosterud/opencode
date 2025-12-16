@@ -545,7 +545,7 @@ export namespace Config {
       input_delete_word_backward: z
         .string()
         .optional()
-        .default("ctrl+w,ctrl+backspace,alt+backspace")
+        .default("ctrl+w,ctrl+backspace,alt+backspace,backspace")
         .describe("Delete word backward in input"),
       history_previous: z.string().optional().default("up").describe("Previous history item"),
       history_next: z.string().optional().default("down").describe("Next history item"),
